@@ -3,7 +3,7 @@ name: Daily Kannada Panchanga
 
 on:
   schedule:
-    - cron: "5 6 * * *"
+    - cron: "17 10 * * *"
       timezone: "Asia/Kolkata"
   workflow_dispatch:
 
