@@ -3,7 +3,7 @@ name: Daily Kannada Panchanga
 
 on:
   schedule:
-    - cron: "22 10 * * *"
+    - cron: "25 10 * * *"
       timezone: "Asia/Kolkata"
   workflow_dispatch:
 
@@ -35,4 +35,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TIMEZONE: Asia/Kolkata
-          SEND_TIME: "06:00"
+          SEND_TIME: "10:25"
